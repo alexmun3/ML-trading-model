@@ -4,7 +4,7 @@ import json
 api_key = '79fWD7OC8t6l1usTOZcvX3mD1H94jNAs8AUnhTjs'
 
 url='https://api.chart-img.com/v2/tradingview/advanced-chart'
-forex_pair = 'EURUSD'
+
 
 headers = {
     'x-api-key': api_key,
@@ -13,7 +13,7 @@ headers = {
 
 payload = {
     "symbol": "OANDA:EURUSD",
-    "interval": "4h",
+    "interval": "1h",
 }
 
 response = requests.post(url, headers=headers, data=json.dumps(payload))
