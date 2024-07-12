@@ -23,8 +23,8 @@ plt.close()
 
 end_date = datetime.now()
 intervals = [
-    ("1d", end_date - timedelta(days=30)),from datetime import datetime, timedelta
-]
+    ("1d", end_date - timedelta(days=30)),from datetime import datetime, timedelta ]
+    
 
 for interval, start_date in intervals:
     create_chart(ticker, start_date, end_date, interval)
