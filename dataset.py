@@ -7,7 +7,7 @@ url='https://api.chart-img.com/v2/tradingview/advanced-chart'
 
 
 headers = {
-    'x-api-key': api_key,
+    'x-api-key': '79fWD7OC8t6l1usTOZcvX3mD1H94jNAs8AUnhTjs',
     'content-type': 'application/json'
    }
 
