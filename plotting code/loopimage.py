@@ -15,7 +15,7 @@ while start_date <= end_date:
     
     plt.figure(figsize=(12, 6))
     plt.plot(data.loc[start_date:end_of_period].index, data.loc[start_date:end_of_period]["Adj Close"])
-    plt.title(f"{start_date.strftime('%b %d')} - {end_of_period.strftime('%b %d')} 2022 Daily Chart")
+    #plt.title(f"{start_date.strftime('%b %d')} - {end_of_period.strftime('%b %d')} 2022 Daily Chart")
     #plt.xlabel("Date")
     #plt.ylabel("Adjusted Close Price")
     plt.grid(False)
