@@ -3,6 +3,7 @@ import {TRAINING_DATA} from 'https://storage.googleapis.com/jmstore/TensorFlowJS
 // Input feature pairs (House size, Number of Bedrooms)
 const INPUTS = TRAINING_DATA.inputs;
 
+console.log('hello world')
 // Current listed house prices in dollars given their features above (target output values you want to predict).
 const OUTPUTS = TRAINING_DATA.outputs;
 
