@@ -6,11 +6,11 @@ from datetime import datetime, timedelta
 
 #define our ticker and data(pulled from yfinance)
 ticker = "CL=F"
-data = yf.download(ticker, start="2020-01-01", end="2022-12-31")
+data = yf.download(ticker, start="2010-01-01", end="2019-12-31")
 
 #define start dates
-start_date = datetime(2020, 1, 1)
-end_date = datetime(2022, 12, 31)
+start_date = datetime(2010, 1, 1)
+end_date = datetime(2019, 12, 31)
 delta = timedelta(days=7)  #this defines the time period for each photo (7 days/1 week)
 
 
